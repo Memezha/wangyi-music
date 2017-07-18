@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input,
+button,
+select,
+textarea {
+	outline: none
+}
+
+textarea {
+	resize: none
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right
+}
+
+.clearFix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+input::-webkit-calendar-picker-indicator {
+	display: none;
+	outline: none;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.box {
+	width: 100%;
+}
+
+.header {
+	width: 100%;
+	height: 86px;
+	background: #262525;
+	position: relative;
+}
+
+.hp {
+	display: block;
+	width: 163px;
+	height: 42px;
+	background: url(../img/topbar.png) no-repeat;
+	left: 0;
+	top: 0;
+	position: absolute;
+	left: 200px;
+	top: 22px;
+}
+
+.ul {
+	width: 650px;
+	padding: 24px;
+	margin-left: 360px;
+}
+
+.li {
+	width: 80px;
+	height: 42px;
+	margin-left: 10px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.li a {
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	text-align: center;
+	line-height: 42px;
+}
+
+.li:hover {
+	background: #f03;
+	border-radius: 10px;
+}
+
+.li6 {
+	position: relative;
+}
+
+.li3 {
+	position: relative;
+}
+
+.ll {
+	width: 30px;
+	height: 20px;
+	background: url(../img/topbar.png)no-repeat -191px 0;
+	position: absolute;
+	left: 81px;
+	top: 4px;
+}
+
+.ls {
+	width: 30px;
+	height: 20px;
+	background: url(../img/topbar.png)no-repeat -221px -25px;
+	position: absolute;
+	left: 56px;
+	top: 14px;
+}
+
+.input {
+	width: 200px;
+	height: 26px;
+	border: 1px solid #fff;
+	background: #fff;
+	position: absolute;
+	left: 1018px;
+	top: 32px;
+	font-size: 12px;
+	background: url(../img/quan.png)no-repeat left #fff;
+	border-radius: 15px;
+}
+
+.text {
+	width: 182px;
+	height: 26px;
+	/*border: 1px solid #ccc;*/
+	border: none;
+	border-radius: 15px;
+	margin-left: 19px;
+	font-size: 12px;
+	color: #ccc;
+}
+
+.post {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url("../img/topbar.png") no-repeat -61px -50px;
+	position: absolute;
+	right: 246px;
+	top: 28px;
+}
+
+.music {
+	width: 100%;
+	height: 46px;
+	background: #f00;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+.music a{
+	margin-left: 15px;
+}
+
+.prev {
+	display: block;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	background: url("../img/playbar.png") no-repeat -28px -128px;
+}
+
+.pause {
+	display: block;
+	margin-top: 5px;
+	width: 32px;
+	height: 36px;
+	margin-left: 15px;
+	background: url(../img/playbar.png) no-repeat -42px -164px;
+}
+
+.play {
+	margin-top: 5px;
+	display: block;
+	width: 32px;
+	height: 36px;
+	background: url(../img/playbar.png) no-repeat -42px -203px
+}
+
+.next {
+	display: block;
+	margin-top: 10px;
+	width: 30px;
+	height: 30px;
+	background: url("../img/playbar.png") no-repeat -111px -128px;
+}
+
+
+/****************************************lizehua*/
+
+ol {
+	width: 900px;
+	padding: 40px !important;
+	margin: 0 auto !important;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+ol li * {
+	float: left;
+	line-height: 20px;
+}
+ol li *:hover{
+	text-decoration: underline;
+	cursor:pointer;
+}
+ol li:nth-child(odd) {
+	background-color: #F2F2F2;
+}
+
+ol li {
+	/*transition: .1s all linear;*/
+	padding: 10px 10px 8px 18px;
+	list-style: none;
+	border: 1px solid rgba(0, 0, 0, 0);
+}
+
+ol li:hover {
+	border: 1px solid #e1e1e1;
+	background: #f2f2f2;
+}
+
+ol li a {
+	width: 17px;
+	height: 17px;
+	background: url(../img/table.png) no-repeat 0 -103px;
+	margin-right: 10px;
+}
+
+ol li a:hover {
+	background: url(../img/table.png) no-repeat 0 -128px;
+}
+
+ol li span {
+	width: 580px;
+}
+
+ol li i {
+	font-style: normal;
+}
